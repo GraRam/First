@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.icon-1.4.5.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.5.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>GraRamApp</title>
+
+
+</head>
+
+<body>
+
+<!-- Prima Pagina Home -->
+
+<div data-role="page"  id="home"data-theme="c">
+
+    <header data-role="header" data-theme="b">
+
+        <div data-role="navbar">
+            <ul>
+
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#portfolio" data-icon="star">Portfolio</a></li>
+                <li><a href="#contatti" data-icon="mail">Contatti</a></li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <div role="main" class="ui-content">
+
+        <img src="img/home-1.png" class="banner">
+        <br>
+        <h2>Agenzia pubblicitaria</h2>
+
+        <p align="center">Dal 2012 l’agenzia Pubblicitaria GRAFICA RAMAGLIA si occupa di comunicazione, marketing, grafica pubblicitaria e web.</p>
+    </div>
+
+
+    <h2>Ci occupiamo di:</h2>
+<br>
+    <!-- Pop up graphic -->
+    <a href="#graphic" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/servizio1.png" class="popphoto" style="width: 100%;" opacity:10> </a>
+
+    <div data-role="popup" id="graphic">
+        <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+        <img src="img/servizio1-1.png" class="popphoto" style="width: 100%;">
+
+
+    </div>
+
+<br>
+    <br>
+    <!-- Pop up social -->
+    <a href="#social" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/social.png" class="popphoto" style="width: 100%;" opacity:10> </a>
+
+    <div data-role="popup" id="social">
+        <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+        <img src="img/social-2.png" class="popphoto" style="width: 100%;">
+
+
+    </div>
+
+    <br>
+    <br>
+    <!-- Pop up internet -->
+    <a href="#internet" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/sviluppo-3.png" class="popphoto" style="width: 100%;" opacity:10> </a>
+
+    <div data-role="popup" id="internet">
+        <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+        <img src="img/sviluppo.png" class="popphoto" style="width: 100%;">
+
+
+    </div>
+
+    <br>
+
+    <br>
+
+
+    <footer data-role="footer" data-position="fixed"data-theme="b">
+        <h4>&copy 2020 - created by Grafica Ramaglia</h4>
+    </footer>
+
+</div>
+
+
+<!-- Seconda Pagina Portfolio -->
+
+<div data-role="page"  id="portfolio"data-theme="c">
+
+    <header data-role="header"data-theme="b">
+
+        <div data-role="navbar">
+            <ul>
+
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#portfolio" data-icon="star">Portfolio</a></li>
+                <li><a href="#contatti" data-icon="mail">Contatti</a></li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <div class="ui-content">
+
+        <img src="img/home-1.png" class="banner">
+
+        <h2> Portfolio </h2>
+
+
+        <br>
+
+       <div align="center">
+           <a href="#logo1" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/logo-1.png" class="popphoto" style="width: 46%;" opacity:10> </a>
+
+        <div data-role="popup" id="logo1">
+            <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+            <img src="img/logo-1.png" class="popphoto" style="width: 100%;">
+
+        </div>
+
+        <a href="#logo2" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/logo-2.png" class="popphoto" style="width: 46%;" opacity:10> </a>
+
+        <div data-role="popup" id="logo2">
+            <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+            <img src="img/logo-2.png" class="popphoto" style="width: 100%;">
+
+        </div>
+       </div>
+<br>
+        <br>
+        <div align="center">
+            <a href="#logo3" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/logo-3.png" class="popphoto" style="width: 46%;" opacity:10> </a>
+
+            <div data-role="popup" id="logo3">
+                <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+                <img src="img/logo-3.png" class="popphoto" style="width: 100%;">
+
+            </div>
+
+            <a href="#logo4" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/logo-4.png" class="popphoto" style="width: 46%;" opacity:10> </a>
+
+            <div data-role="popup" id="logo4">
+                <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+                <img src="img/logo-4.png" class="popphoto" style="width: 100%;">
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div align="center">
+            <a href="#flayer" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/flayer-1.png" class="popphoto" style="width: 46%;" opacity:10> </a>
+
+            <div data-role="popup" id="flayer">
+                <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+                <img src="img/flayer-1.png" class="popphoto" style="width: 100%;">
+
+            </div>
+
+            <a href="#flayer2" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/flayer-2.png" class="popphoto" style="width: 46%;" opacity:10> </a>
+
+            <div data-role="popup" id="flayer2">
+                <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+                <img src="img/flayer-2.png" class="popphoto" style="width: 100%;">
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div align="center">
+            <a href="#sito" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/sito-1.png" class="popphoto" style="width: 46%;" opacity:10> </a>
+
+            <div data-role="popup" id="sito">
+                <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+                <img src="img/sito-1.png" class="popphoto" style="width: 100%;">
+
+            </div>
+
+            <a href="#sito2" data-rel="popup" data-position-to="window" dat-transition="fade"><img src="img/sito-2.png" class="popphoto" style="width: 46%;" opacity:10> </a>
+
+            <div data-role="popup" id="sito2">
+                <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-corner-all">chiudi</a>
+
+                <img src="img/sito-2.png" class="popphoto" style="width: 100%;">
+
+            </div>
+        </div>
+
+
+        </div>
+
+
+    <footer data-role="footer" data-position="fixed"data-theme="b">
+        <h4>&copy 2020 - created by Grafica Ramaglia</h4>
+    </footer>
+
+</div>
+
+
+<!-- Terza Pagina Contatti -->
+
+<div data-role="page"  id="contatti"data-theme="c">
+
+    <header data-role="header"data-theme="b">
+
+        <div data-role="navbar">
+            <ul>
+
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#portfolio" data-icon="star">Portfolio</a></li>
+                <li><a href="#contatti" data-icon="mail">Contatti</a></li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <div class="ui-content">
+
+
+
+        <form>
+        <img src="img/home-1.png" class="banner">
+
+            <h2 align="center">Sei pronto a conoscerci?</h2>
+           <div align="center"> <img src="img/logo.png" style="width: 50%"></div>
+
+
+            <p align="center">Per informazioni, preventivi o appuntamenti, puoi contattarci compilando il form sottostante,
+                direttamente ai recapiti che trovi qui sotto oppure tramite social network.</p>
+
+            <br>
+
+<h1>Grafica Ramaglia</h1>
+
+            <div align="center">
+            <h3 data-icon="phone">081-19463524 - 333-7217788</h3>
+            <a href="mailto:info@graficaramaglia.it">info@graficaramaglia.it</a>
+                <p><img alt="Facebook" title="Facebook" src="img/fb.png" style="width: 50px; height: 50px"/><a href="https://www.facebook.com/Idegraphic/" ></a>
+                <img alt="Instagram" title="Instagram" src="img/ig.png" style="width: 50px; height: 50px"/><a href="https://www.instagram.com/graficaramaglia/" ></a></p>
+            </div>
+            <br>
+
+<br>
+            <form>
+        <label for="nome" class="ui-hidden-accesible">Nome:</label>
+        <input type="Text" name="nome" placeholder="scrivi il tuo nome">
+
+        <label for="cognome">Cognome:</label>
+        <input type="Text" name="cognome" placeholder="scrivi il tuo cognome">
+
+        <label for="mail">Mail:</label>
+        <input type="mail" name="mail" placeholder="scrivi la tua mail">
+
+        <label for="info">Messaggio:</label>
+        <textarea rows="30" name="messaggio" placeholder="messaggio"></textarea>
+
+        <input type="reset" value="Reset" data-inline="true">
+        <input type="submit" value="Invia" data-inline="true">
+
+        </form>
+
+
+    </div>
+
+
+    <footer data-role="footer" data-position="fixed"data-theme="b">
+        <h4>&copy 2020 - created by Grafica Ramaglia</h4>
+    </footer>
+
+</div>
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>
